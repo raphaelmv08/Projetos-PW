@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+body{
+    background-image: url(../img/MicrosoftTeams-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h2{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family:Matemasie;
+}
+p{
+    color: white;
+    font-family:Griffy;
+}
+img{
+    height: 900px;
+    width: 700px;
+}
+.body1{
+    display: flex;
+}
+.filmes{
+    margin-right: 5pc;
+}
+.botao{
+    position: absolute fixed;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    border: rgb(0, 0, 0) ;
+    margin-right: 20px;
+    transition: all 1s;
+      transform: translateX(0) scale(1);
+      background-color: white;
+    margin-left: 2pc;
+    }
+    .botao1{
+        position: absolute fixed;
+    border-radius: 10px;
+    width: 85px;
+    height: 40px;
+    border: black ;
+    margin-right: 20px;
+    background-color: darkgray;padding-top: 5px;
+    color: white;
+    }
+    :hover.botao,
+    :focus.botao{
+     transition: 0.5s;
+        transform: scale(1.2);
+        background-color: red;
+    }

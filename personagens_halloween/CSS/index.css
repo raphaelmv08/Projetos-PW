@@ -1,0 +1,39 @@
+nav{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3pc;
+    margin-top: 2pc;
+    margin-left: 3pc;
+    text-align: center;
+}
+body{    
+    background-image: url(../img/MicrosoftTeams-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.divbody{
+    display: flex;
+    margin-top: 5pc;
+    justify-content: center;
+
+}
+.img{
+width: 14pc;
+height: 20pc;
+margin-bottom: 1pc;
+margin-left: 1pc;
+margin-right: 1pc;
+transition: 0.5s;
+}
+.img:hover{
+transform: scale(1.15);
+
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2pc;
+    margin-top: 1pc;
+    margin-left: 3pc;
+    text-align: center;
+}
